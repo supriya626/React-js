@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react code from scratch",
+  "main": "namaste-react.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriya626/React-js.git"
+  },
+  "keywords": [],
+  "author": "Supriya rani Dhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supriya626/React-js/issues"
+  },
+  "homepage": "https://github.com/supriya626/React-js#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  }
+}
