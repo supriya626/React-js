@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { APP_LOGO_URL } from "../utils/constants"
 
 export default Header = () => {
@@ -9,20 +10,24 @@ export default Header = () => {
             <div className="nav-items">
                 <ul>
                     <li>
+                        <i className="fa-solid fa-house"></i>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
                         <i className="fa-solid fa-tags"></i>
-                        <a href="#">Offers</a>
+                        <Link to="/offers">Offers</Link>
                     </li>
                     <li>
                         <i className="fa-solid fa-user"></i>
-                        <a href="#">Sign in</a>
+                        <Link to="/login">Sign in</Link>
                     </li>
                     <li>
                         <i className="fa-solid fa-circle-info"></i>
-                        <a href="#">Help</a>
+                        <Link to="/help">Help</Link>
                     </li>
                     <li>
                         <i className="fa-solid fa-cart-arrow-down"></i>
-                        <a href="#">Cart</a>
+                        <Link to="/cart">Cart</Link>
                     </li>
                 </ul>
             </div>

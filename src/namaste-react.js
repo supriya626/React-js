@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Help from "./components/Help";
+import ErrorMessage from "./components/ErrorMessage";
 
 const AppComponents = () => {
     return (
         <div className="app">
             <Header />
-            <Body />
+            <Outlet />
         </div>
     )
 }
@@ -18,10 +19,17 @@ const appRouter = createBrowserRouter([
     {
         path: "/",
         element: <AppComponents />,
-    },
-    {
-        path: "/help",
-        element: <Help />,
+        children:[
+            {
+                path: "/help",
+                element: <Help />,
+            },
+            {
+                path: "/",
+                element: <Body />,
+            }
+        ],
+        errorElement : <ErrorMessage />,
     },
 ])
 
