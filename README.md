@@ -14,8 +14,8 @@
   - supports https 
   
 # there are 2 types of routing
- - <u>server side routing</u>
+ - server side routing
     - when we are going to another page then it sends a n/w req to the server then the required html page is loaded .
- - <u>client side routing</u> 
+ - client side routing
     - in jsx we don't have to make any network request , we are just interchaanging the components rendering onto our page.
   
