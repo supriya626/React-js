@@ -26,6 +26,10 @@ export default Header = () => {
                         <Link to="/help">Help</Link>
                     </li>
                     <li>
+                        {/* <i className="fa-solid fa-circle-info"></i> */}
+                        <Link to="/grocery">Grocery</Link>
+                    </li>
+                    <li>
                         <i className="fa-solid fa-cart-arrow-down"></i>
                         <Link to="/cart">Cart</Link>
                     </li>

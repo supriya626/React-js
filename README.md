@@ -14,8 +14,16 @@
   - supports https 
   
 # there are 2 types of routing
- - server side routing
-    - when we are going to another page then it sends a n/w req to the server then the required html page is loaded .
- - client side routing
-    - in jsx we don't have to make any network request , we are just interchaanging the components rendering onto our page.
+   - server side routing
+      - when we are going to another page then it sends a n/w req to the server then the   required html page is loaded .
+   - client side routing
+      - in jsx we don't have to make any network request , we are just interchaanging the components rendering onto our page.
+
+# making different bundlers for our website , all the acronyms are ;
+   - lazy loading
+   - dynamic bundling
+   - on demand bundling
+   - chunking
+   - code splitting
+   - dynamic import
   
