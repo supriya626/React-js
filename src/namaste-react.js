@@ -23,7 +23,7 @@ const appRouter = createBrowserRouter([
         children:[
             {
                 path: "/help",
-                element: <Help />,
+                element: <Help name = {"Supriya rani Dhal"}/>,
             },
             {
                 path: "/",
