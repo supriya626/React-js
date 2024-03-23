@@ -14,15 +14,15 @@ export default class Help extends React.Component{
     render(){
         return (
             <center>
-                <u><h1>About</h1></u>
+                <u><h1 className="font-bold text-2xl">About</h1></u>
                 <button onClick={ () =>
                     this.setState({
                         count : this.state.count + 1 
                     })
                 }>{this.state.count}</button>
-                <h2>Hii , I'm {this.props.name}</h2>
+                <h2 className="font-bold">Hii , I'm {this.props.name}</h2>
                 {/* in the implementation of the React.Component class constructor there might be required to access the arguements by using this keyword   */}
-                <h2>Welcome to my <i>Food Chef</i> . And what do you want to have right now ?</h2>
+                <h2 className="font-bold">Welcome to my <i>Food Chef</i> . And what do you want to have right now ?</h2>
             </center>
         )
     }

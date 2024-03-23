@@ -3,35 +3,35 @@ import { APP_LOGO_URL } from "../utils/constants"
 
 export default Header = () => {
     return (
-        <div className="header">
+        <div className="flex justify-between bg-[#FFF3C7]">
             <div>
-                <img src={APP_LOGO_URL} />
+                <img className="w-32" src={APP_LOGO_URL} />
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li>
-                        <i className="fa-solid fa-house"></i>
-                        <Link to="/">Home</Link>
+            <div className="flex items-center">
+                <ul className="flex list-none">
+                    <li className="mx-3 text-lg">
+                        <i className=" mx-2 fa-solid fa-house"></i>
+                        <Link className="font-bold" to="/">Home</Link>
                     </li>
-                    <li>
-                        <i className="fa-solid fa-tags"></i>
-                        <Link to="/offers">Offers</Link>
+                    <li className="mx-3 text-lg">
+                        <i className="mx-2 fa-solid fa-tags"></i>
+                        <Link className="font-bold" to="/offers">Offers</Link>
                     </li>
-                    <li>
-                        <i className="fa-solid fa-user"></i>
-                        <Link to="/login">Sign in</Link>
+                    <li className="mx-3 text-lg">
+                        <i className="mx-2 fa-solid fa-user"></i>
+                        <Link className="font-bold" to="/login">Sign in</Link>
                     </li>
-                    <li>
-                        <i className="fa-solid fa-circle-info"></i>
-                        <Link to="/help">Help</Link>
+                    <li className="mx-3 text-lg">
+                        <i className="mx-2 fa-solid fa-circle-info"></i>
+                        <Link className="font-bold" to="/help">Help</Link>
                     </li>
-                    <li>
+                    <li className="mx-3 text-lg">
                         {/* <i className="fa-solid fa-circle-info"></i> */}
-                        <Link to="/grocery">Grocery</Link>
+                        <Link className="font-bold" to="/grocery">Grocery</Link>
                     </li>
-                    <li>
-                        <i className="fa-solid fa-cart-arrow-down"></i>
-                        <Link to="/cart">Cart</Link>
+                    <li className="mx-3 text-lg">
+                        <i className="mx-2 fa-solid fa-cart-arrow-down"></i>
+                        <Link className="font-bold" to="/cart">Cart</Link>
                     </li>
                 </ul>
             </div>

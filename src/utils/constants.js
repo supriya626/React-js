@@ -6,6 +6,7 @@ export const MENU_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_M
 
 export const VEG_MARK = "http://2.bp.blogspot.com/-ibQIvg3n2mU/UL70a56qoII/AAAAAAAAAIY/k51XRKcaIcQ/s1600/india_veg_symbol.jpg";
 
-export const NONVEG_MARK = "https://packagingguruji.com/wp-content/uploads/2022/09/New-Non-Logo.png";
+export const NONVEG_MARK = "https://tse1.mm.bing.net/th?id=OIP.fUkV7YHoiVYAehd7bPenWgHaHa&pid=Api&rs=1&c=1&qlt=95&h=180";
 
 export const MENU_IMG_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/";
+
